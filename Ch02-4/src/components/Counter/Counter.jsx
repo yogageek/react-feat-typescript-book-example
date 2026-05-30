@@ -2,7 +2,7 @@ import React from 'react';
 import useCounter from '../../hooks/useCounter';
 
 const Counter = () => {
-  const { count, add } = useCounter(
+  const { count, add } = useCounter(// useCounter 是我們自己寫的 Hook, 寫一次後就可以在很多地方重複使用。
     1, () => { console.log('一般的計數器執行'); }
   );
  

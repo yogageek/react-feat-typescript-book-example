@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "偵錯Chrome",
+      "url": "http://localhost:8081",
+      "webRoot": "${workspaceFolder}/Ch04-3",
+      "sourceMaps": true
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "一鍵啟動當前專案 (pnpm)",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "start"
+      ],
+      "cwd": "${fileDirname}"
+    }
+  ]
+}

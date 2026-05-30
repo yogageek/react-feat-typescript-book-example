@@ -1,7 +1,9 @@
 import React, { useState } from 'react'; 
 import { useDispatch } from 'react-redux'; 
 import { addNews } from '../../actions/news';
- 
+
+// useDispatch 拿到 dispatch 函式，點按鈕時直接呼叫它發送 action。
+
 const NewsForm = (props) => {
   const dispatch = useDispatch();
   const [name, setName] = useState('');

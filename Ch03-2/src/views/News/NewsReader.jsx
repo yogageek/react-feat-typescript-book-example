@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
  
 const NewsReader = props => {  
-  const { id: targetNewsId } = useParams();
+  const { id: targetNewsId } = useParams(); //從網址參數中取得 id 的值
   const targetNews = props.news.find(theNews => (
     String(theNews.id) === String(targetNewsId)
   ));

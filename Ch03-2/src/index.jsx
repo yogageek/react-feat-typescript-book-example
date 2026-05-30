@@ -7,7 +7,7 @@ import Menu from './components/Menu';
 import NotFound from './views/NotFound'; 
 import News from './views/News';
 
-
+//這章節主要多了Menu元件，裡面用程式碼控制路由跳轉，而不是用 <Link>。其他的元件都是之前章節的內容，沒有改動。
  
 ReactDOM.render(
   <HashRouter>

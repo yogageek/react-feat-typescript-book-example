@@ -17,7 +17,7 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^5.0.0",
     "mini-css-extract-plugin": "^1.0.0",
-    "node-sass": "^4.14.1",
+    "sass" : "^1.60.0",
     "sass-loader": "^10.0.3",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.10",
