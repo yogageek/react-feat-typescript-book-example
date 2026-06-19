@@ -1,11 +1,11 @@
-export const filter: string;
-export const form: string;
-export const header: string;
-export const layout: string;
-export const submitBtn: string;
-export const subTitle: string;
-export const title: string;
-export const todoInput: string;
-export const todoItem: string;
-export const todoList: string;
-export const todoListWrapper: string;
+export const filter: string; // 宣告 index.scss 裡有 filter 這個 class，匯入後可用 styles.filter。
+export const form: string; // 宣告 index.scss 裡有 form 這個 class，匯入後可用 styles.form。
+export const header: string; // 宣告 index.scss 裡有 header 這個 class，匯入後可用 styles.header。
+export const layout: string; // 宣告 index.scss 裡有 layout 這個 class，匯入後可用 styles.layout。
+export const submitBtn: string; // 宣告 index.scss 裡有 submitBtn 這個 class，匯入後可用 styles.submitBtn。
+export const subTitle: string; // 宣告 index.scss 裡有 subTitle 這個 class，匯入後可用 styles.subTitle。
+export const title: string; // 宣告 index.scss 裡有 title 這個 class，匯入後可用 styles.title。
+export const todoInput: string; // 宣告 index.scss 裡有 todoInput 這個 class，匯入後可用 styles.todoInput。
+export const todoItem: string; // 宣告 index.scss 裡有 todoItem 這個 class，匯入後可用 styles.todoItem。
+export const todoList: string; // 宣告 index.scss 裡有 todoList 這個 class，匯入後可用 styles.todoList。
+export const todoListWrapper: string; // 宣告 index.scss 裡有 todoListWrapper 這個 class，匯入後可用 styles.todoListWrapper。
