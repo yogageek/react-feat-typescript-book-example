@@ -28,7 +28,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.5.3",
     "mini-css-extract-plugin": "^1.0.0",
-    "node-sass": "^4.14.1",
+    "sass" : "^1.60.0",
     "react-test-renderer": "^16.14.0",
     "sass-loader": "^10.0.3",
     "typed-scss-modules": "^3.2.2",

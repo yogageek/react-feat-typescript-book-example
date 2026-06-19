@@ -1,3 +1,5 @@
+製作一個可重用的元件發佈到 npm 上, 無須build start
+
 # just-cool-button
 
 ## What is it?
